@@ -1,0 +1,87 @@
+body {
+  font-family: Helvetica;
+  padding: 2em;
+  background-color: whitesmoke;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.details-about {
+  background-color: #CFE8E7;
+}
+
+.details-experience {
+  background-color: #5D8CC4;
+}
+
+.details-education {
+  background-color: #74BBF3;
+}
+
+.details-projects {
+  background-color: #ABB3A6;
+}
+
+.details-skills{
+  background-color: #C6B17C;
+}
+
+.details-contact{
+  background-color: #77A690;
+}
+
+.details-about,
+.details-experience,
+.details-education,
+.details-projects,
+.details-skills,
+.details-contact {
+  width: 100%;
+  padding: 1em 3em 2em 2em;
+  margin: 0.5em;
+  color: #2F3333;
+}
+
+.tab-button {
+  padding: 0.75em 1.25em;
+  background-color: whitesmoke;
+  opacity: 0.9;
+  width: 10em;
+  color: #2F3333;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.tab {
+  margin: 1em 0;
+}
+
+.active {
+  background-color: #333333;
+  color: whitesmoke;
+}
+
+.shadow {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24)
+}
+
+header {
+        position: fixed;
+        display: block;
+        z-index: 999;
+        -webkit-animation: none;
+        animation: none;
+        bottom: 0;
+        height: 100%;
+}
